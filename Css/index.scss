@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#lycee {
+  background-image: url('https://www.francetvinfo.fr/image/75iszkzy8-77d7/1200/450/15092041.jpg');
+}
+
+#nous {
+  background-image: url('../media/boloss.jpeg');
+}
+
+#leader {
+  background-image: url('../media/source.gif');
+}
+
+.link {
+  background-size: cover;
+  width: 87%;
+  height: 4em;
+  border: 15px solid rgb(237,28,39);
+  padding: 50px;
+  margin: 2% auto;
+  font-size: 45px;
+  vertical-align: middle;
+  line-height: 100px;
+
+  transition-property: transform;
+  transition-duration: 400ms;
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  -webkit-transition: border-color 600ms ease-out;
+  -moz-transition: border-color 600ms ease-out;
+  -o-transition: border-color 600ms ease-out;
+  transition: border-color 600ms ease-out;
+  transition: 600ms;
+  &:hover {
+    border-color: #1c7430;
+    transform: scale(1.05);
+  }
+}
