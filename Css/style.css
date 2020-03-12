@@ -25,3 +25,8 @@ a {
 .return {
 	text-align: right;
 }
+
+#gif {
+	position: absolute;
+	right: 0px;
+}
