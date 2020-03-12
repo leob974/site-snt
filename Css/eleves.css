@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+}
+
+.basile {
+	background-image: url(../media/basile.jpg);
+}
+
+.antonin {
+	background-image: url(../media/antonin.jpg);
+}
+
+.leo {
+	background-image: url(../media/leo.jpg);
+}
+
+.link {
+	background-size: cover;
+	width: 80%;
+	height: 600px;
+	border: 15px solid rgb(237,28,39);
+	padding: 50px; 
+	margin: 20px;
+	font-size: 45px;
+	vertical-align: middle;
+	line-height: 100px;
+}
