@@ -2,6 +2,34 @@ body {
 	background-color: black;
 }
 
+#home {
+	float: right;
+	color: white;
+	font-size: 4em;
+}
+
+.basile {
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+	width: 480px;
+}
+
+.antonin {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 480px;
+}
+
+.leo {
+	display: block;
+  	margin-left: auto;
+  	margin-right: 0px;
+  	width: 480px;
+}
+
+/*
 .basile {
 	background-image: url(../media/basile.jpg);
 }
@@ -14,7 +42,7 @@ body {
 	background-image: url(../media/leo.jpg);
 }
 
-.link {
+ .link {
 	background-size: cover;
 	width: 80%;
 	height: 600px;
@@ -24,4 +52,4 @@ body {
 	font-size: 45px;
 	vertical-align: middle;
 	line-height: 100px;
-}
+} */
